@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+.navbar-brand{
+    font-weight: bold;
+}
+.dropdown-item{
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.media{
+    text-align: center;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#list li a{
+    color: wheat;
+}
+.nav-link:hover{
+    background-color: rgba(15, 12, 12, 0.973);
+}
+#profilepic{
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    
+    margin-left:-44px;
+    margin-top: -16px;
+    margin-bottom: -11px;
+}
+label{
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    
+    margin-left:-49px;
+    margin-top: -13px;
+    margin-bottom: -15px;
+}
+#input-file{
+    display: none;
+
+}
+#profilepic:hover #input-file{
+    opacity: 2;
+}
+label{
+    margin-right: 40px;
+    z-index: 4;
+    margin-top: -20px;
+}
+#cpp{
+    filter: brightness(160%);
+    border: 4px solid black;
+    background-color: aliceblue;
+}
+.card{
+    background-color: black;
+    color: aliceblue; 
+    border: 4px solid black;
+    text-align: center;
+}
+#car1{
+    filter:brightness(120%);
+}
+#feed{
+   display: none;
+}
+#feedpack{
+    margin-top:20px;
+    width: 210vh;
+    margin-left: 35px;
+}
+#feedpack::before{
+    border: 1px solid greenyellow;
+}
+#footer{
+    background-color: black;
+    color: aliceblue;
+    width: 220vh;
+}
+pre{
+    color: aliceblue;
+    text-align: justify;
+    justify-content: space-between;
+}
+#fm:hover{
+    background-color: rgb(28, 58, 228);
+    cursor: pointer;
+}
+#fm{
+    background-color: aliceblue;
+}
+#fm1:hover{
+    background-color: rgb(216, 18, 127);
+    cursor: pointer;
+}
+#fm1{
+    background-color: aliceblue;
+}
+#fm2:hover{
+    background-color: rgb(15, 202, 46);
+    cursor: pointer;
+}
+#fm2{
+    background-color: aliceblue;
+}
+#sc:hover{
+    transform: scale(1.3);
+}
+@media screen and (max-width:480px){
+    #profilepic{
+        width: 130px;
+        height: 127px;
+        border-radius: 70px;
+        border:3px solid rgb(26, 204, 10);
+        margin-left:150px;
+        margin-top: -165px;
+        margin-bottom: 50px;
+    }
+    #input-file{
+        display: none;
+    
+    }
+    label{
+        width: 130px;
+        height: 127px;
+        border-radius: 70px;
+        border:3px solid rgb(26, 204, 10);
+        margin-left:150px;
+        margin-top: -220px;
+        margin-bottom: 70px;
+    }
+    #profilepic:hover{
+        cursor: pointer;
+        filter: blur(50);
+    }    
+    label:hover{
+        cursor: pointer;
+    }
+    .nav-link{
+        width: 2px;
+    }
+    .nav-link:hover{
+        width: 100px;
+    }
+    #data{
+        margin-left:10px;
+        width: 350px;
+    }
+    #display{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:280px){
+    #profilepic{
+        width: 80px;
+        height: 77px;
+        border-radius: 70px;
+      
+        margin-left:120px;
+        margin-top: -114px;
+        margin-bottom: 50px;
+    }
+    #input-file{
+        display: none;
+    
+    }
+    label{
+        width: 80px;
+        height: 77px;
+        border-radius: 70px;
+        
+        margin-left:120px;
+        margin-top: -180px;
+        margin-bottom: 70px;
+    }
+    #profilepic:hover{
+        cursor: pointer;
+        filter: blur(50);
+    }    
+    label:hover{
+        cursor: pointer;
+    }
+    .nav-link{
+        width: 2px;
+    }
+    .nav-link:hover{
+        width: 100px;
+    }
+    #data{
+        margin-left:10px;
+        width: 200px;
+    }
+    #display{
+        display: flex;
+        flex-direction: column;
+    }
+}
